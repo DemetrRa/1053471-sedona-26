@@ -13,10 +13,10 @@
         <img src="img/logo.png" alt="Логотип города Седона" width="140" height="70">
       </div>
       <ul>
-        <li><a href="info.html">Информация</a></li>
-        <li><a href="multimedia.html">Фото и видео</a></li>
-        <li><a href="state_map.html">Карта штата</a></li>
-        <li><a href="hotels.html">Гостиницы</a></li>
+        <li><a href="#">Информация</a></li>
+        <li><a href="#">Фото и видео</a></li>
+        <li><a href="#">Карта штата</a></li>
+        <li><a href="#">Гостиницы</a></li>
       </ul>
     </nav>
   </header>
@@ -81,20 +81,22 @@
       <form action="https://echo.htmlacademy.ru" method="post">
         <fieldset>
           <label for="entrance">Дата заезда:</label>
-          <input type="date" name="calendar" id="entrance"><br>
-          <input type="button" name="calendar"><br>
+          <input type="text" name="calendar" id="entrance">
+          <button type="button" name="calendar">Календарь</button><br>
           <label for="check-out">Дата выезда:</label>
-          <input type="date" name="calendar" id="check-out"><br>
-          <input type="button" name="calendar"><br>
+          <input type="text" name="calendar" id="check-out">
+          <button type="button" name="calendar">Календарь</button><br>
           <label for="people-count">
             Взрослые
-            <input type="number" min="1" max="20" step="1" id="people-count" name="people-count"><br>
-            <input type="button" name="people-count"><br>
+            <button type="button" name="-">-</button>
+            <input type="number" min="1" max="20" step="1" id="people-count" name="people-count">
+            <button type="button" name="+">+</button><br>
           </label>
           <label for="children-count">
             Дети
-            <input type="number" min="1" max="20" step="1" id="children-count" name="children-count"><br>
-            <input type="button" name="children-count"><br>
+            <button type="button" name="-">-</button>
+            <input type="number" min="1" max="20" step="1" id="children-count" name="children-count">
+            <button type="button" name="+">+</button><br>
           </label>
           <button type="button" name="search">
             Найти
