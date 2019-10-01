@@ -4,15 +4,18 @@
 <head>
   <meta charset="utf-8">
   <title>Sedona</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap;subset=latin,cyrillic" rel="stylesheet">
+  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+  <link href="https://github.com/DemetrRa/1053471-sedona-26/blob/master/css/stylesheet.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <nav>
+    <nav class="main-navigation">
       <div>
         <img src="img/logo.png" alt="Логотип города Седона" width="140" height="70">
       </div>
-      <ul>
+      <ul class="site-navigtion">
         <li><a href="#">Информация</a></li>
         <li><a href="#">Фото и видео</a></li>
         <li><a href="#">Карта штата</a></li>
@@ -21,62 +24,72 @@
     </nav>
   </header>
   <main>
-    <section>
+    <section class="main-reason">
       <img src="img/background photo.jpg" alt="Вид на горы около Седоны" width="1200" height="510">
     </section>
     <section>
       <h1>Седона-небольшой городок в Аризоне, заслуживающий большего</h1>
       <h2>Рассмотрим 5 причин, по которым Седона круче, чем Гранд каньон</h2>
       <ul>
-        <li>
-          <p> Настоящий городок</p>
-          <p>-№1-</p>
-          <p>Седона-не аттракцион для туристов, там течет своя жизнь</p>
-          <img src="img/street.jpg" alt="Вид на один из отелей Седоны" width="800" height="260">
-          <ul>
-            <li>
-              <p> Жилье</p>
-              <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-              <img src="img/icon-house1.svg" alt="Переход к выбору отелей" width="75" height="75">
-            </li>
-            <li>
-              <p> Еда</p>
-              <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-              <img src="img/icon-food-3.svg" alt="Переход к выбору ресторанов" width="75" height="75">
-            </li>
-            <li>
-              <p> Сувениры</p>
-              <p>Не только китайского, но и местного производства!</p>
-              <img src="img/icon-souvenirs2.svg" alt="Где купить лучшие сувениры в Седоне" width="75" height="75">
-            </li>
-          </ul>
+        <li class="reason-item">
+          <div class="first-block">
+            <h3> Настоящий городок</h3>
+            <p>-№1-</p>
+            <p>Седона-не аттракцион для туристов, там течет своя жизнь</p>
+            <img src="img/street.jpg" alt="Вид на один из отелей Седоны" width="800" height="260">
+          </div>
+          <div class="second-block">
+            <ul>
+              <li class="reason-item">
+                <h3>Жилье</h3>
+                <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                <img src="img/icon-house1.svg" alt="Переход к выбору отелей" width="75" height="75">
+              </li>
+              <li class="reason-item">
+                <h3> Еда</h3>
+                <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                <img src="img/icon-food-3.svg" alt="Переход к выбору ресторанов" width="75" height="75">
+              </li>
+              <li class="reason-item">
+                <h3> Сувениры</h3>
+                <p>Не только китайского, но и местного производства!</p>
+                <img src="img/icon-souvenirs2.svg" alt="Где купить лучшие сувениры в Седоне" width="75" height="75">
+              </li>
+            </ul>
         </li>
-        <li>
-          <p> Там есть мост дьявола</p>
-          <p>-№2-</p>
-          <p>Да, по нему можно пройти!Если, конечно, вы осмелитесь </p>
-          <img src="img/brige.jpg" alt="Вид на мост Дьявол" width="800" height="260">
-        </li>
-        <li>
-          <p> Небольшая площадь</p>
-          <p>-№3-</p>
-          <p>Все достопремичательности находятся близко</p>
-        </li>
-        <li>
-          <p> Красивая дорога</p>
-          <p>-№4-</p>
-          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-        </li>
-        <li>
-          <p> Мало туристов </p>
-          <p>№5</p>
-          <p>Большинство едет в Гранд Каньон и толпится там</p>
-        </li>
+        </div>
+        <div class="third-block">
+          <li class="reason-item">
+            <h3>Там есть мост дьявола</h3>
+            <p>-№2-</p>
+            <p>Да, по нему можно пройти!Если, конечно, вы осмелитесь </p>
+            <img src="img/brige.jpg" alt="Вид на мост Дьявол" width="800" height="260">
+          </li>
+        </div>
+        <div class="fourth-block">
+          <li class="reason-item">
+            <h3> Небольшая площадь</h3>
+            <p>-№3-</p>
+            <p>Все достопремичательности находятся близко</p>
+          </li>
+          <li class="reason-item">
+            <h3> Красивая дорога</h3>
+            <p>-№4-</p>
+            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li class="reason-item">
+            <h3> Мало туристов </h3>
+            <p>№5</p>
+            <p>Большинство едет в Гранд Каньон и толпится там</p>
+          </li>
       </ul>
+      </div>
     </section>
-    <section>
-      <h2>Заинтересовались?</h2>
-      <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
+    <section class="hotel-finding">
+      <div class="interest-block">
+        <h3>Заинтересовались?</h3>
+        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
+      </div>
       <p><a href="#">Поиск гостиницы в Седоне</a></p>
       <form action="https://echo.htmlacademy.ru" method="post">
         <fieldset>
@@ -111,19 +124,19 @@
   <footer>
     <h2>#visitSEDONA</h2>
     <div>
-      <ul>
+      <ul class="social-icon">
         <li><a href="#">Twitter</a>
-          <img src="img/twitter.svg" alt="Переход в Twitter" width="46" height="48">
+          <img src="img/twitter-new.svg" alt="Переход в Twitter" width="46" height="48">
         </li>
         <li><a href="#">Facebook</a>
-          <img src="img/fb-icon.svg" alt="Переход на Facebook" width="46" height="48">
+          <img src="img/fb-icon-new.svg" alt="Переход на Facebook" width="46" height="48">
         </li>
         <li><a href="#">Youtube</a>
-          <img src="img/youtube.svg" alt="Переход на Youtube" width="46" height="48">
+          <img src="img/youtube-new.svg" alt="Переход на Youtube" width="46" height="48">
         </li>
       </ul>
     </div>
-    <p>
+    <p class="academy">
       Website by
       <a href="https://htmlacademy.ru">HTML Academy</a>
       <img src="img/logo_name-htmlAcademy.svg" alt="Переход на сайт разработчика HTML Academy" width="116" height="41">
