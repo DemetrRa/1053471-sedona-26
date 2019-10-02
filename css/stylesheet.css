@@ -45,6 +45,9 @@ a {
     line-height: 1;
 }
 
+li {
+list-style-type: none;
+}
 
 .first-block {
     color: 93bed8;
