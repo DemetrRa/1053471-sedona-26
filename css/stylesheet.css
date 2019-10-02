@@ -20,8 +20,7 @@ a {
     line-height: 1.857;
     color: rgb(0, 0, 0);
     background-color: f7fafc;
-    list-style: none;
-}
+    }
 
 .site-navigatiom a {
     color: ccd0d3;
@@ -32,9 +31,6 @@ a {
     color: eff1f2;
 }
 
-.main-reason {
-    list-style: none;
-}
 
 .reason-item {
     text-align: center;
