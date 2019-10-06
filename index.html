@@ -16,16 +16,16 @@
         <img src="img/logo.png" alt="Логотип города Седона" width="140" height="70">
       </div>
       <div class="wrapper">
-      <div class="container">      
-      <ul class="site-navigtion">
-        <li><a href="#">Информация</a></li>
-        <li><a href="#">Фото и видео</a></li>
-        <li><a href="#">Карта штата</a></li>
-        <li><a href="#">Гостиницы</a></li>
-      </ul>
+        <div class="container">
+          <ul class="site-navigtion">
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Фото и видео</a></li>
+            <li><a href="#">Карта штата</a></li>
+            <li><a href="#">Гостиницы</a></li>
+          </ul>
+        </div>
       </div>
-      </div>
-   </nav>
+    </nav>
   </header>
   <main class="container">
     <section class="main-reason">
@@ -95,31 +95,31 @@
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
       </div>
       <section class="hotel-choose">
-      <p><a href="#">Поиск гостиницы в Седоне</a></p>
-      <form action="https://echo.htmlacademy.ru" method="post">
-        <fieldset>
-          <label for="entrance">Дата заезда:</label>
-          <input type="text" name="calendar" id="entrance">
-          <button type="button" name="calendar">Календарь</button><br>
-          <label for="check-out">Дата выезда:</label>
-          <input type="text" name="calendar" id="check-out">
-          <button type="button" name="calendar">Календарь</button><br>
-          <label for="people-count">
-            Взрослые
-            <button type="button" name="-">-</button>
-            <input type="number" min="1" max="20" step="1" id="people-count" name="people-count">
-            <button type="button" name="+">+</button><br>
-          </label>
-          <label for="children-count">
-            Дети
-            <button type="button" name="-">-</button>
-            <input type="number" min="1" max="20" step="1" id="children-count" name="children-count">
-            <button type="button" name="+">+</button><br>
-          </label>
-          <button type="button" name="search">
-            Найти
-          </button><br>
-        </fieldset>
+        <p><a href="#">Поиск гостиницы в Седоне</a></p>
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <fieldset>
+            <label for="entrance">Дата заезда:</label>
+            <input type="text" name="calendar" id="entrance">
+            <button type="button" name="calendar">Календарь</button><br>
+            <label for="check-out">Дата выезда:</label>
+            <input type="text" name="calendar" id="check-out">
+            <button type="button" name="calendar">Календарь</button><br>
+            <label for="people-count">
+              Взрослые
+              <button type="button" name="-">-</button>
+              <input type="number" min="1" max="20" step="1" id="people-count" name="people-count">
+              <button type="button" name="+">+</button><br>
+            </label>
+            <label for="children-count">
+              Дети
+              <button type="button" name="-">-</button>
+              <input type="number" min="1" max="20" step="1" id="children-count" name="children-count">
+              <button type="button" name="+">+</button><br>
+            </label>
+            <button type="button" name="search">
+              Найти
+            </button><br>
+          </fieldset>
       </section>
       </form>
     </section>
@@ -128,25 +128,27 @@
     </section>
   </main>
   <footer class="city-contacts">
-    <div class="social-block">
-    <h2 class="visit">#visitSEDONA</h2>
-     <ul class="social-icon">
-        <li><a href="#">Twitter</a>
-          <img src="img/twitter-new.svg" alt="Переход в Twitter" width="46" height="48">
-        </li>
-        <li><a href="#">Facebook</a>
-          <img src="img/fb-icon-new.svg" alt="Переход на Facebook" width="46" height="48">
-        </li>
-        <li><a href="#">Youtube</a>
-          <img src="img/youtube-new.svg" alt="Переход на Youtube" width="46" height="48">
-        </li>
-      </ul>
-    </div>
-    <p class="academy">
-      Website by
-      <a href="https://htmlacademy.ru">HTML Academy</a>
-      <img src="img/logo_name-htmlAcademy.svg" alt="Переход на сайт разработчика HTML Academy" width="116" height="41">
-    </p>
+    <section class="footer-container">
+      <div class="social-block">
+        <h2 class="visit">#visitSEDONA</h2>
+        <ul class="social-icon">
+          <li><a href="#">Twitter</a>
+            <img src="img/twitter-new.svg" alt="Переход в Twitter" width="46" height="48">
+          </li>
+          <li><a href="#">Facebook</a>
+            <img src="img/fb-icon-new.svg" alt="Переход на Facebook" width="46" height="48">
+          </li>
+          <li><a href="#">Youtube</a>
+            <img src="img/youtube-new.svg" alt="Переход на Youtube" width="46" height="48">
+          </li>
+        </ul>
+      </div>
+      <p class="academy">
+        Website by
+        <a href="https://htmlacademy.ru">HTML Academy</a>
+        <img src="img/logo_name-htmlAcademy.svg" alt="Переход на сайт разработчика HTML Academy" width="116" height="41">
+      </p>
+    </section>
   </footer>
 </body>
 
