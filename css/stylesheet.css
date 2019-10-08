@@ -163,114 +163,13 @@ html,
 body {
   min-height: 2588px;
   min-width: 1200px;
-}
-
-.main-header {
-  margin-bottom: 65px;
-}
-
-min-height: 563px;
 
 .main-navigation {
-  min-height: 563px;
   display: flex;
-  align-items: center;
-  width: 1200px;
-  height: 56px;
+  justify-content: space-between;
+  flex-direction: column;
   margin: 0 auto;
+  padding: 0 10px;
+  margin-bottom: 10px;
 }
-
-
-
-
-.main-logo {
-  width: 144px;
-  height: 72px;
-  order: 1;
-}
-
-.site-navigation {
-  margin: 0;
-  padding: 0;
-}
-
-.wrapper {
-  width: 100%;
-  background-color="#eff5f9"
-}
-
-.container {
-  margin: 0 auto;
-  padding: 10px 10px;
-  width: 1200px;
-  display: flex;
-  justify-content: space-between;
-
-}
-
-.all-reasons {
-  min-height: 256px;
-  margin: 0;
-  padding: 0;
-  min-height: 400px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.hotel-finding {
-  background-image: none;
-  justify-content: space-between;
-  background-color: "#ffffff"
-    display:flex;
-}
-
-.interest-block {
-  min-height: 28px;
-  min-width: 1200px;
-}
-
-.hotel-choose {
-  min-height: 482px;
-  min-width: 565px;
-  border-collapse: collapse;
-}
-
-
-.social-block {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-container {
-    display: flex;
-  }
-
-.city-contacts {
-  padding: 60px 0;
-  width: 138px;
-  min-height: 135px;
-
-}
-
-.visit {
-  padding: 0;
-  width: 136px;
-  min-height: 18px;
-  margin-right: 257px;
-}
-
-.social-icon {
-  padding: 0;
-  background-color: "#cbdfe5"
-    width: 45px;
-  min-height: 50px;
-
-}
-
-.academy {
-  padding: 0;
-  width: 198px;
-  min-height: 92px;
-  margin-left: auto;
-
 
