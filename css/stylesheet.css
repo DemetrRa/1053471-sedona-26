@@ -193,3 +193,23 @@ body {
 .logo {
   order: 3;
 }
+
+
+/*СЕТКА ДЛЯ ФУТЕРА*/
+
+.site-contact {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+
+
