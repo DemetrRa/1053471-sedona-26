@@ -173,23 +173,23 @@ body {
   padding: 0;
 }
 
-.info: {
+.info {
   order: 1;
 }
 
-.media: {
+.media {
   order: 2;
 }
 
 
-.map: {
+.map {
   order: 4;
 }
 
-.hotels: {
+.hotels {
   order: 5;
 }
 
-.logo: {
+.logo {
   order: 3;
 }
