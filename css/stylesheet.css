@@ -156,19 +156,40 @@ li {
   list-style-type: none;
 }
 
-/* Для сетки */
+/* СЕТКА: ГЛАВНОЕ МЕНЮ */
 
 
 html,
 body {
   min-height: 2588px;
   min-width: 1200px;
+}
 
-.main-navigation {
+.site-navigation {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: 0 10px;
-  margin-bottom: 10px;
-  width: 1200px;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.info: {
+  order: 1;
+}
+
+.media: {
+  order: 2;
+}
+
+
+.map: {
+  order: 4;
+}
+
+.hotels: {
+  order: 5;
+}
+
+.logo: {
+  order: 3;
+}
