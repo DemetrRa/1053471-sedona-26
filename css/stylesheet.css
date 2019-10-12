@@ -167,7 +167,7 @@ body {
 
 .site-navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   margin: 0;
   padding: 0;
@@ -194,7 +194,6 @@ body {
   order: 3;
 }
 
-
 /*СЕТКА ДЛЯ ФУТЕРА*/
 
 .site-contact {
@@ -212,4 +211,47 @@ body {
 }
 
 
+/* КОНТЕЙНЕР С ПРИЧИНАМИ*/
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.first-block {
+  width: 100%;
+  margin-left: 38px;
+  margin-right: 794px;
+}
+
+.second-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 33%;
+}
+
+.third-block {
+  display: flex;
+  width: 100%;
+  margin-right: 38px;
+  margin-left: 794px;
+}
+
+
+.fourth-block  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 33%;
+}
+
+/*БЛОК ВЫБОРА ГОСТИНИЦЫ*/
+
+.choosing{
+  display: flex;
+  padding: 0;
+  margin:0;
+}
