@@ -213,45 +213,85 @@ body {
 
 /* КОНТЕЙНЕР С ПРИЧИНАМИ*/
 
-.container {
+.section {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
-}
-
-.first-block {
-  width: 100%;
-  margin-left: 38px;
-  margin-right: 794px;
-}
-
-.second-block {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 33%;
-}
-
-.third-block {
-  display: flex;
-  width: 100%;
-  margin-right: 38px;
-  margin-left: 794px;
-}
-
-
-.fourth-block  {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 33%;
-}
-
-/*БЛОК ВЫБОРА ГОСТИНИЦЫ*/
-
-.choosing{
-  display: flex;
+  margin: 0;
   padding: 0;
-  margin:0;
+}
+
+.city {
+  order: 1;
+  width: 100%;
+}
+
+.habitatiom {
+  justify-content: center;
+  order: 2;
+  width: 33%;
+}
+
+.food {
+  justify-content: center;
+  order: 2;
+  width: 33%;
+}
+
+
+.souvenirs {
+  justify-content: center;
+  order: 2;
+  width: 33%;
+}
+
+.bridge {
+  order: 3;
+  width: 100%;
+}
+
+.area {
+  justify-content: center;
+  order: 4;
+  width: 33%;
+}
+
+.road {
+  justify-content: center;
+  order: 4;
+  width: 33%;
+}
+
+
+.tourists {
+  justify-content: center;
+  order: 4;
+  width: 33%;
+}
+
+.block2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.block3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.find {
+  text-align: center;
+}
+
+.big-map {
+  text-align: center;
 }
