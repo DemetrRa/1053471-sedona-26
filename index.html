@@ -31,46 +31,54 @@
       <h1>Седона-небольшой городок в Аризоне, заслуживающий большего</h1>
       <h2>Рассмотрим 5 причин, по которым Седона круче, чем Гранд каньон</h2>
       <div class="city">
-        <h3> Настоящий городок</h3>
-        <p>-№1-</p>
-        <p>Седона-не аттракцион для туристов, там течет своя жизнь</p>
+        <div>
+          <h3> Настоящий городок</h3>
+          <p>-№1-</p>
+          <p>Седона-не аттракцион для туристов, там течет своя жизнь</p>
+        </div>
         <img src="img/street.jpg" alt="Вид на один из отелей Седоны" width="800" height="260">
       </div>
-      <div class="habitation">
-        <h3>Жилье</h3>
-        <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-        <img src="img/icon-house1.svg" alt="Переход к выбору отелей" width="75" height="75">
-      </div>
-      <div class="food">
-        <h3> Еда</h3>
-        <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-        <img src="img/icon-food-3.svg" alt="Переход к выбору ресторанов" width="75" height="75">
-      </div>
-      <div class="souvenirs">
-        <h3> Сувениры</h3>
-        <p>Не только китайского, но и местного производства!</p>
-        <img src="img/icon-souvenirs2.svg" alt="Где купить лучшие сувениры в Седоне" width="75" height="75">
+      <div class="block2">
+        <div class="habitation">
+          <h3>Жилье</h3>
+          <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          <img src="img/icon-house1.svg" alt="Переход к выбору отелей" width="75" height="75">
+        </div>
+        <div class="food">
+          <h3> Еда</h3>
+          <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          <img src="img/icon-food-3.svg" alt="Переход к выбору ресторанов" width="75" height="75">
+        </div>
+        <div class="souvenirs">
+          <h3> Сувениры</h3>
+          <p>Не только китайского, но и местного производства!</p>
+          <img src="img/icon-souvenirs2.svg" alt="Где купить лучшие сувениры в Седоне" width="75" height="75">
+        </div>
       </div>
       <div class="bridge">
-        <h3>Там есть мост дьявола</h3>
-        <p>-№2-</p>
-        <p>Да, по нему можно пройти!Если, конечно, вы осмелитесь </p>
+        <div>
+          <h3>Там есть мост дьявола</h3>
+          <p>-№2-</p>
+          <p>Да, по нему можно пройти!Если, конечно, вы осмелитесь </p>
+        </div>
         <img src="img/brige.jpg" alt="Вид на мост Дьявол" width="800" height="260">
       </div>
-      <div class="area">
-        <h3> Небольшая площадь</h3>
-        <p>-№3-</p>
-        <p>Все достопремичательности находятся близко</p>
-      </div>
-      <div class="road">
-        <h3> Красивая дорога</h3>
-        <p>-№4-</p>
-        <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-      </div>
-      <div class="tourists">
-        <h3> Мало туристов </h3>
-        <p>№5</p>
-        <p>Большинство едет в Гранд Каньон и толпится там</p>
+      <div class="block3">
+        <div class="area">
+          <h3> Небольшая площадь</h3>
+          <p>-№3-</p>
+          <p>Все достопремичательности находятся близко</p>
+        </div>
+        <div class="road">
+          <h3> Красивая дорога</h3>
+          <p>-№4-</p>
+          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+        </div>
+        <div class="tourists">
+          <h3> Мало туристов </h3>
+          <p>№5</p>
+          <p>Большинство едет в Гранд Каньон и толпится там</p>
+        </div>
       </div>
     </section>
     <section class="hotel-finding">
@@ -78,9 +86,9 @@
         <h3>Заинтересовались?</h3>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
       </div>
-      <p><a href="#">Поиск гостиницы в Седоне</a></p>
+      <p class="find"><a href="#">Поиск гостиницы в Седоне</a></p>
       <form action="https://echo.htmlacademy.ru" method="post">
-        <fieldset class="choosing">
+        <fieldset>
           <label for="entrance">Дата заезда:</label>
           <input type="text" name="calendar" id="entrance">
           <button type="button" name="calendar">Календарь</button><br>
@@ -105,7 +113,7 @@
         </fieldset>
       </form>
     </section>
-    <section>
+    <section class="big-map">
       <img src="img/map.png" alt="Карта штата" width="1200" height="475">
     </section>
   </main>
