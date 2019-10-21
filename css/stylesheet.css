@@ -295,3 +295,101 @@ form {
 .big-map {
   text-align: center;
 }
+
+/*МЕЛКИЕ ЭЛЕМЕНТЫ*/
+
+.city {
+display:flex;
+flex-direction:row;
+flex-wrap: nowrap;
+justify-content: space-between;
+background-color:#89b8d5; 
+}
+
+.brige {
+display:flex;
+flex-direction:row-reverse;
+flex-wrap: nowrap;
+justify-content: space-between;
+background-color:#89b8d5; 
+}
+
+.search-button {
+   width: 100%;
+    height: 58px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 23px;
+    background-color: #81b3d2;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    border: 0;
+}
+.button_search:hover {
+    background-color: #669ebf;
+}
+.button_search:active {
+    background-color: #5596be;
+    color: #94b8d0;
+}
+
+.date {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 21px;
+    width: 346px;
+    height: 38px;
+    margin-bottom: 29px;
+    font-weight: bold;
+    border: 0;
+    background-color: #f2f2f2;
+    
+}
+.date:hover {
+    background-color: #ebebeb;
+}
+.date:focus {
+    background-color: #ffffff;
+}
+
+.people {
+   display: inline-block;
+    vertical-align: top;
+    margin-left: -4px;
+    padding-left: 0;
+    width: 115px;
+    height: 38px;
+    margin-bottom: 30px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-indent: 6px;
+    border: 0;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+}
+
+.people input [type="value"] {
+    display: none;
+}
+.people:hover {
+    background-color: #ebebeb;
+}
+.people:focus {
+    background-color: #ffffff;
+}
+
+.main-count {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color:"#f1f3f4"
+}
