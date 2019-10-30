@@ -18,17 +18,14 @@
         <li class="map"><a href="#">Карта штата</a></li>
         <li class="hotels"><a href="#">Гостиницы</a></li>
         <li class="logo">
-          <div> <img src="img/logo.png" alt="Логотип города Седона" width="140" height="72"> </div>
+          <div> <img src="img/logo.png" alt="Логотип города Седона" width="140" height="72" class="sedona-logo"> </div>
         </li>
       </ul>
     </nav>
   </header>
   <main>
     <section class="main-reason">
-      <img src="img/background photo.jpg" alt="Вид на горы Седоны" width="100%" height="520">
-      <img src="img/welcomefull.svg" alt="Приветствие" width="450" height="350">
-      <img src="img/traingular.svg" width="100%" height="60">    
-    </section>
+   </section>
     <section class="container">
       <div class="starting-word">
       <h1 class="first-word">Седона-небольшой городок в Аризоне,<br> заслуживающий большего</h1>
@@ -37,8 +34,8 @@
       <div class="city">
         <div>
           <h3> Настоящий<br>городок</h3>
-          <p class="light">-№1-</p>
-          <p class="light">Седона-не аттракцион для туристов,<br> там течет своя жизнь</p>
+          <p class="city1">-№1-</p>
+          <p class="city1">Седона-не аттракцион для туристов,<br> там течет своя жизнь</p>
         </div class="image-city">
         <img src="img/street.jpg" alt="Вид на один из отелей Седоны" width="800" height="260">
       </div>
@@ -65,8 +62,8 @@
       <div class="bridge">
         <div>
           <h3>Там есть<br> мост дьявола</h3>
-          <p class="light">-№2-</p>
-          <p class="light">Да, по нему можно пройти!Если конечно<br> вы осмелитесь </p>
+          <p class="bridge1">-№2-</p>
+          <p class="bridge1">Да, по нему можно пройти!Если конечно<br> вы осмелитесь </p>
         </div>
         <img src="img/bridge.jpg" alt="Вид на мост Дьявол" width="800" height="260">
       </div>
@@ -94,9 +91,12 @@
     <section class="hotel-finding">
       <div class="interest-block">
         <h3>Заинтересовались?</h3>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
+        <p class="date-offer">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
       </div>
-      <p class="find"><a href="#">Поиск гостиницы в Седоне</a></p>
+      <div class="form-starting">     
+        <h4>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h4>
+      </div>
+      <div>
       <form action="https://echo.htmlacademy.ru" method="post" class="form">
         <fieldset>
           <label for="entrance">Дата заезда:</label>
@@ -124,10 +124,15 @@
           </button><br>
         </fieldset>
       </form>
-    </section>
-    <section class="big-map">
+      </div>
+     <h3 class="visually-hidden">Карта</h3>
+    <iframe
+      src="https://yandex.ru/map-widget/v1/?um=constructor%3A18d789417e544cf3da0e29c93ec09cd14be7ebdf6ab2df0af17e796b6ed6bba8&amp;source=constructor"width="1200" height="593"></iframe>
+   </section>
+    <!--<section class="big-map">
       <img src="img/map.png" alt="Карта штата" width="1200" height="475">
-    </section>
+    </section>-->
+  
   </main>
   <footer>
     <section class="site-contact">
@@ -146,8 +151,7 @@
         </ul>
       </div>
       <p class="academy">
-        Website by
-        <a href="https://htmlacademy.ru" class="academy-logo">HTML Academy</a>
+      <a class="academy-logo" href="https://htmlacademy.ru"><img src="img/AcademyBLACK.svg" width="200" height="43"></a>
       </p>
     </section>
   </footer>
