@@ -373,7 +373,7 @@ a {
 
 .main-count {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-around;
   background-color: "#f1f3f4"
@@ -577,7 +577,7 @@ width: 240px;
 
 }
 
-.hotels {
+.places {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
