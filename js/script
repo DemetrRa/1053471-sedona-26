@@ -26,3 +26,7 @@ form.addEventListener("submit", function (evt) {
   popup.offsetWidth = popup.offsetWidth;
   popup.classList.add("popup-err");  
 })
+
+
+
+// 21. Личный проект: оживляем интерактивные элементы
