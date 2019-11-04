@@ -76,6 +76,7 @@ a {
 .main-reason {
   background-image: url(../img/welcome.svg), url(../img/traingular.svg), url(../img/back.jpg);
   background-repeat: no-repeat;
+  background-color: #a7c8dd;
   height: 510px;
   width: 1200px;
   background-position: center center, center 451px, center -55px;
@@ -507,7 +508,7 @@ a {
 
 /*INNER PAGE*/
 
-/*Списко отелей*/
+/*Список отелей отелей*/
 .hotel-button {
   display: flex;
   margin: 0px;
@@ -733,7 +734,7 @@ a {
   background-image: url("../img/filter-back.jpg");
   background-position: top;
   background-repeat: no-repeat;
-  background-color: #ffffff;
+  background-color:#9cc3dc;
   color: #ffffff;
 }
 
