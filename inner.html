@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <title>Sedona:поиск гостиниц</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap;subset=latin,cyrillic" rel="stylesheet">
-  <link href="css/stylesheet.css" rel="stylesheet">
-  <link href="css/normalize.css" rel="normalize">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <nav>
     <ul class="site-navigation">
@@ -19,7 +20,9 @@
       </li>
     </ul>
   </nav>
+  
   <main>
+    
     <section class="catalog-main">
       <h3 class="hidden">Гостиницы Седоны</h3>
       <form action="https://echo.htmlacademy.ru" method="post" class="points">
@@ -77,13 +80,14 @@
       </form>
       </div>
     </section>
+    
     <section class="type-selection">
       <h2 class="hidden">Список гостиниц</h2>
       <h3 class="hidden">Сортировка</h3>
       <div class="type-sorted">
         <h4>НАЙДЕНО:<span class="type-amount"> 3</span></h4>
         <span class="sort">Сортировка:</span>
-        <ul class="type-list">
+          <ul class="type-list">
           <li class="sort-item">
             <div class="button-sort" type="button" name="sort-cost" disabled><a href="#">ПО ЦЕНЕ</a>
             </div>
@@ -102,6 +106,8 @@
           <button class="growth" type="button" aria-label="Отсортировать по возрастанию" disabled></button>
         </div>
       </div>
+      </section>
+      
       <section>
         <h3 class="hidden">Результаты поиска</h3>
         <ul class="places">
@@ -125,7 +131,7 @@
               </div>
             </div>
             <div class="rating-star">
-              <ul class="stars-list">
+                <ul class="stars-list">
                 <li class="star"><img src="img/star.svg" alt="Звездочки рейтинга" width="18" height="18"></li>
                 <li class="star"><img src="img/star.svg" alt="Звездочки рейтинга" width="18" height="18"></li>
                 <li class="star"><img src="img/star.svg" alt="Звездочки рейтинга" width="18" height="18"></li>
@@ -187,7 +193,9 @@
               </ul>
               <span class="rating">РЕЙТИНГ 9,2</span>
             </div>
-         </main>
+        </section>
+        </main>
+  
   <footer>
     <section class="site-contact">
       <h2 class="city-site">#visitSEDONA</h2>
@@ -205,8 +213,10 @@
         </ul>
       </div>
       <p class="academy">
-        <a class="academy-logo" href="https://htmlacademy.ru"><img src="img/AcademyBLACK.svg" width="200" height="43"></a>
+        <a class="academy-logo" href="https://htmlacademy.ru"><img src="img/AcademyBLACK.svg" alt="Информация о разработчике" width="200" height="43"></a>
       </p>
     </section>
+</footer>
 </body>
 </html>
+
